@@ -1,0 +1,19 @@
+name: EHML
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - numpy
+  - matplotlib
+  - pandas
+  - jupyter
+  - jupyterlab
+  - seaborn
+  - pip
+  - ipywidgets
+  - scikit-learn
+  - torch
+  - pip:
+    - plotly
+    - lckr-jupyterlab-variableinspector
+    - jupyterlab-spellchecker
