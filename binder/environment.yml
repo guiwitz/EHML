@@ -1,8 +1,11 @@
 name: EHML
 channels:
   - conda-forge
+  - pytorch
 dependencies:
-  - numpy
+  - python=3.9
+  - pytorch
+  - torchvision
   - matplotlib
   - pandas
   - jupyter
@@ -12,8 +15,8 @@ dependencies:
   - ipywidgets
   - scikit-learn
   - pip:
-    - torch
-    - torchvision
+    - openpyxl
+    - numpy
     - transformers
     - pytorch-lightning
     - 'lightning-flash[tabular,text,image]'
