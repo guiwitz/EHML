@@ -1,11 +1,9 @@
-name: EHML
+name: EHML2023
 channels:
   - conda-forge
-  - pytorch
 dependencies:
   - python=3.9
-  - pytorch
-  - torchvision
+  - numpy
   - matplotlib
   - pandas
   - jupyter
@@ -16,10 +14,3 @@ dependencies:
   - scikit-learn
   - pip:
     - openpyxl
-    - numpy
-    - transformers
-    - pytorch-lightning
-    - 'lightning-flash[tabular,text,image]'
-    - plotly
-    - lckr-jupyterlab-variableinspector
-    - jupyterlab-spellchecker
