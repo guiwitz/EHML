@@ -1,4 +1,4 @@
-name: EHML2023
+name: EHML2024
 channels:
   - conda-forge
 dependencies:
