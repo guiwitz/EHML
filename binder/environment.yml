@@ -11,5 +11,7 @@ dependencies:
   - pip
   - ipywidgets
   - scikit-learn
+  - sktime
   - pip:
     - openpyxl
+    - prophet
